@@ -1,20 +1,23 @@
 import React from 'react';
-import EventCard from './components/EventCard'
+import {
+  BrowserRouter as Router,
+  Routes,
+  Route,
+} from "react-router-dom";
+import Header from './components/Header';
+import Home from './pages/Home';
+import EventCard from './components/EventCard';
 
 export default function App() {
-  const styles={
-    eventsWrapper: {
-      display: 'flex',
-      justifyContent: 'space-between',
-      alignItems: 'center',
-    }
-  }
   return (
-    <div style={styles.eventsWrapper}>
-      <EventCard performer="John Doe" location="New York, NY" date="Thursday, Jan 27 2022" time="9pm" />
-      <EventCard performer="Jane Doe" location="Los Angeles, CA" date="Friday, Jan 28 2022" time="7pm" />
-      <EventCard performer="John Doe" location="New York, NY" date="Thursday, Jan 27 2022" time="9pm" />
-      <EventCard performer="Jane Doe" location="Los Angeles, CA" date="Friday, Jan 28 2022" time="7pm" />
+    <div>
+      <Router>
+        <Routes>
+          <Route exact path='/performers' element={<Header />}/>
+          <Route exact path='/events' element={<Header />}/>
+          <Route exact path='/' element={<Home />}/>
+        </Routes>
+      </Router>
     </div>
   );
 }

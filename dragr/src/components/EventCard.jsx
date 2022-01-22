@@ -7,7 +7,7 @@ import {
 export default function App({ performer, location, date, time }) {
   const styles = {
     container: {
-      margin: '4vw',
+      margin: '2vw',
       width: '20vw'
     },
     button: {
