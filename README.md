@@ -10,7 +10,7 @@ Typescript
 https://www.typescriptlang.org/docs/handbook/typescript-tooling-in-5-minutes.html
 
 Google Cloud Firebase
-https://discord.com/channels/@me/934200396950417408/934552661418721411
+https://firebase.google.com/docs/firestore/quickstart
 
 ## Problem Definition
 
