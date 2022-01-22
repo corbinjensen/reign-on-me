@@ -1,25 +1,20 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react';
+import EventCard from './components/EventCard'
 
-function App() {
+export default function App() {
+  const styles={
+    eventsWrapper: {
+      display: 'flex',
+      justifyContent: 'space-between',
+      alignItems: 'center',
+    }
+  }
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div style={styles.eventsWrapper}>
+      <EventCard performer="John Doe" location="New York, NY" date="Thursday, Jan 27 2022" time="9pm" />
+      <EventCard performer="Jane Doe" location="Los Angeles, CA" date="Friday, Jan 28 2022" time="7pm" />
+      <EventCard performer="John Doe" location="New York, NY" date="Thursday, Jan 27 2022" time="9pm" />
+      <EventCard performer="Jane Doe" location="Los Angeles, CA" date="Friday, Jan 28 2022" time="7pm" />
     </div>
   );
 }
-
-export default App;
