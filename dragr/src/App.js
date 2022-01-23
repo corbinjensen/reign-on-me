@@ -6,7 +6,6 @@ import {
 } from "react-router-dom";
 import Header from './components/Header';
 import Home from './pages/Home';
-import EventCard from './components/EventCard';
 import EventForm from './components/EventForm';
 
 export default function App() {

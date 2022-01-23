@@ -1,4 +1,5 @@
 import React from 'react';
+import Logo from '../img/Logo';
 
 export default function Header() {
   const styles = {
@@ -9,7 +10,6 @@ export default function Header() {
       display: 'flex',
       justifyContent: 'space-between',
       alignItems: 'center',
-      // float: 'left',
     },
     navigation: {
       display: 'flex',
@@ -21,6 +21,7 @@ export default function Header() {
       margin: '0',
       color: 'white',
     },
+   
   }
 
   const navItems = [
@@ -31,8 +32,10 @@ export default function Header() {
   ]
 
   return (
-    <div style={styles.container}>
-      <img src="https://source.unsplash.com/100x100/" alt="logo" />
+    <header style={styles.container}>
+      
+       <Logo  />
+      
       <nav style={styles.navigation}>
         {navItems.map((item, i) => {
           return (
@@ -40,6 +43,6 @@ export default function Header() {
           )
         })}
       </nav>
-    </div>
+    </header>
   );
 }
