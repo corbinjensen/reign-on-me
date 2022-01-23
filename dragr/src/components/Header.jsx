@@ -9,7 +9,6 @@ export default function Header() {
       display: 'flex',
       justifyContent: 'space-between',
       alignItems: 'center',
-      // float: 'left',
     },
     navigation: {
       display: 'flex',
@@ -31,7 +30,7 @@ export default function Header() {
   ]
 
   return (
-    <div style={styles.container}>
+    <header style={styles.container}>
       <img src="https://source.unsplash.com/100x100/" alt="logo" />
       <nav style={styles.navigation}>
         {navItems.map((item, i) => {
@@ -40,6 +39,6 @@ export default function Header() {
           )
         })}
       </nav>
-    </div>
+    </header>
   );
 }
