@@ -4,7 +4,7 @@ import {
   Button,
 } from 'react-bootstrap';
 
-export default function App({ performer, location, date, time }) {
+export default function App({ performer, location, date, time, pic }) {
   const styles = {
     container: {
       margin: '2vw',
