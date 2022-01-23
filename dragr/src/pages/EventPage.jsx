@@ -7,7 +7,15 @@ export default function EventPage() {
         <div>
           <Header />
           <div style={styles.eventsWrapper}>
-            <h2>Event Page</h2>
+            <h2>Event Page Title</h2>
+            <img />
+            <div className='event_deets'>
+                <ul>
+                    <li>Location: </li>
+                    <li>Date: </li>
+                    <ul>Time: </ul>
+                </ul>
+            </div>
           </div>
         </div>
       );
