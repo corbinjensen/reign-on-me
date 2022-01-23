@@ -1,5 +1,5 @@
-# dragr
-Created for UCLA QwerHacks 2022 Hackathon - A web app to help Drag Queens/Kings book and promote their shows.
+# Reign on Me App
+Created for UCLA QwerHacks 2022 Hackathon - A web app to help Drag Queens/Kings and all Queer Perfomers book and promote their shows without the need for mainstream social networks that often unfairly censor.
 
 ## Tech
 Created using several technologies:
