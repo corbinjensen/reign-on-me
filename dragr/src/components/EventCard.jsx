@@ -4,7 +4,7 @@ import {
   Button,
 } from 'react-bootstrap';
 
-export default function App({ performer, location, date, time, pic }) {
+export default function App({ performer, location, date, time, picture }) {
   const styles = {
     container: {
       margin: '2vw',
@@ -20,7 +20,7 @@ export default function App({ performer, location, date, time, pic }) {
   }
   return (
     <Card style={styles.container}>
-      <Card.Img variant="top" src="https://source.unsplash.com/400x200/" />
+      <Card.Img variant="top" src={picture} />
       <Card.Body>
         <Card.Title>{performer}</Card.Title>
         {/* <Card.Subtitle className="mb-2 text-muted">Card Subtitle</Card.Subtitle> */}
