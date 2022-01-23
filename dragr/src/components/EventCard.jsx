@@ -8,11 +8,12 @@ export default function App({ performer, location, date, time }) {
   const styles = {
     container: {
       margin: '2vw',
-      width: '20vw'
+      width: '20vw',
+      backgroundColor: '#e7e0ff'
     },
     button: {
       margin: '0 auto',
-      backgroundColor: 'red',
+      backgroundColor: '#ffd151',
       border: 'none',
     }
   }
