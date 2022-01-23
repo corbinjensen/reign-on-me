@@ -19,7 +19,8 @@ export default function Header() {
     item: {
       padding: '2vw',
       margin: '0',
-    }
+      color: 'white',
+    },
   }
 
   const navItems = [
@@ -32,13 +33,13 @@ export default function Header() {
   return (
     <div style={styles.container}>
       <img src="https://source.unsplash.com/100x100/" alt="logo" />
-      <div style={styles.navigation}>
+      <nav style={styles.navigation}>
         {navItems.map((item, i) => {
           return (
             <p key={i} style={styles.item}>{item}</p>
           )
         })}
-      </div>
+      </nav>
     </div>
   );
 }
