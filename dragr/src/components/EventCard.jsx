@@ -13,7 +13,8 @@ export default function App({ performer, location, date, time }) {
     },
     button: {
       margin: '0 auto',
-      backgroundColor: '#ffd151',
+      backgroundColor: '#fcc140',
+      color: '#58429d',
       border: 'none',
     }
   }
