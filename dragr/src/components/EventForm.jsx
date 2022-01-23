@@ -1,7 +1,5 @@
 // New Demo https://react-typescript-cheatsheet.netlify.app/docs/basic/getting-started/forms_and_events/
 // Original Demo (Deprecated) https://reactjs.org/docs/forms.html 
-
-
 import React from 'react';
 
 export default function EventForm() {

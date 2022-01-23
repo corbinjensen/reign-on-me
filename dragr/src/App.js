@@ -13,6 +13,7 @@ export default function App() {
   return (
     <div>
       <Router>
+      <Header />
         <Routes>
           <Route exact path='/performers' element={<Header />}/>
           <Route exact path='/events' element={<EventForm />}/>
