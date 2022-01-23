@@ -1,4 +1,5 @@
 import React from 'react';
+import Logo from '../img/Logo';
 
 export default function Header() {
   const styles = {
@@ -20,6 +21,7 @@ export default function Header() {
       margin: '0',
       color: 'white',
     },
+   
   }
 
   const navItems = [
@@ -31,7 +33,9 @@ export default function Header() {
 
   return (
     <header style={styles.container}>
-      <img src="https://source.unsplash.com/100x100/" alt="logo" />
+      
+       <Logo  />
+      
       <nav style={styles.navigation}>
         {navItems.map((item, i) => {
           return (
