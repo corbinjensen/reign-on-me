@@ -5,7 +5,7 @@ export default function Header() {
     container: {
       // height: '12vh',
       width: '100vw',
-      backgroundColor: '#4f3f81',
+      backgroundColor: '#58429d',
       display: 'flex',
       justifyContent: 'space-between',
       alignItems: 'center',
